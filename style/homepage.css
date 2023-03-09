@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: black;
+}
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+header {
+  min-width: 100%;
+  padding: 1.5em 20em;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+}
+header .home {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+header ul {
+  margin-left: auto;
+  display: flex;
+  gap: 4em;
+  list-style: none;
+  align-items: center;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+section #background {
+  border-radius: 0px 0px 35px 35px;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+section #text {
+  color: #fff;
+}
+.sec {
+  min-height: 100vh;
+  padding: 10em 20em;
+  display: flex;
+  gap: 5em;
+  justify-content: space-evenly;
+}
+.sec div {
+  color: #fff;
+}
+.sec h2 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+  max-width: 10ch;
+  line-height: 110.5%;
+}
+.sec p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1.5em;
+  max-width: 38ch;
+}
+.skz {
+  width: 500px;
+  height: 300px;
+}
+.skz img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.spotlight {
+  position: absolute;
+  z-index: 1000;
+  left: -350px;
+  top: 1060px;
+  width: 800px;
+  height: 750px;
+}
+.spotlight-1 {
+  position: absolute;
+  z-index: 1000;
+  right: 350px;
+  bottom: 90%;
+  width: 800px;
+  height: 750px;
+}
